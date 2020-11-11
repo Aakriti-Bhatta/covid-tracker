@@ -11,7 +11,7 @@ import styles from "./Chart.module.css";
         const fetchAPI = async () => {
             setDailyData( await fetchDailyData());
         }
-        console.log(dailyData);
+        // console.log(dailyData);
 
         fetchAPI();
     });
